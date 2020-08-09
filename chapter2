@@ -1,0 +1,9 @@
+บทที่ 2 
+1. คำสั่งนำ file จาก google drive มาที่ google colab คือ from google.colab import drive 
+drive.mount('/content/drive') ในวงเล็บคือชื่อไฟล์
+2. path คือการจัดเก็บข้อมูล
+3. file_path คือที่เก็บข้อมูลของเรา
+4. int คือจำนวนเต็ม
+5. float คือทศนิยม
+6. str หรือ string คือตัวอักษร
+7. pd.read_csv(file_path).head() ซึ่ง pd.read_csv(......).head() คือการแสดงตัวอย่างข้อมูลใน file ของเรา
